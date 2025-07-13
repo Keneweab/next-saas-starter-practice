@@ -10,14 +10,15 @@ import { ColorModeScript } from 'nextjs-color-mode';
 import React, { PropsWithChildren } from 'react';
 import { TinaEditProvider } from 'tinacms/dist/edit-state';
 
-import Footer from 'components/Footer';
-import { GlobalStyle } from 'components/GlobalStyles';
-import Navbar from 'components/Navbar';
-import NavigationDrawer from 'components/NavigationDrawer';
-import NewsletterModal from 'components/NewsletterModal';
-import WaveCta from 'components/WaveCta';
-import { NewsletterModalContextProvider, useNewsletterModalContext } from 'contexts/newsletter-modal.context';
-import { NavItems } from 'types';
+import Footer from '../components/Footer';
+import { GlobalStyle } from '../components/GlobalStyles';
+import Navbar from '../components/Navbar';
+import NavigationDrawer from '../components/NavigationDrawer';
+import NewsletterModal from '../components/NewsletterModal';
+import WaveCta from '../components/WaveCta';
+
+import { NewsletterModalContextProvider, useNewsletterModalContext } from '../contexts/newsletter-modal.context';
+import { NavItems } from '../types';
 
 const navItems: NavItems = [
   { title: 'Awesome SaaS Features', href: '/features' },
