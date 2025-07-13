@@ -16,9 +16,10 @@ export const GlobalStyle = createGlobalStyle`
   --secondBackground: 255,255,255;
   --text: 10,18,30;
   --textSecondary: 255,255,255;
-  --primary: 22,115,255; 
-  --secondary: 10,18,30;
-  --tertiary: 231,241,251;
+  
+  --primary: 128, 0, 255;     /* A vivid purple */
+  --secondary: 55,58,90;    /* A dark muted purple/eggplant */
+  --tertiary: 230, 215, 255;  /* A light lavender for contrast */
   --cardBackground: 255,255,255;
   --inputBackground: 255,255,255;
   --navbarBackground: 255,255,255;
@@ -32,9 +33,10 @@ export const GlobalStyle = createGlobalStyle`
   --secondBackground: 45,55,72;
   --text: 237,237,238;
   --textSecondary: 255,255,255;
-  --primary: 22,115,255; 
-  --secondary: 10,18,30;
-  --tertiary: 231,241,251;
+  --primary: 128, 0, 255;
+  --secondary: 55,58,90;
+  --tertiary: 230, 215, 255;
+  
   --cardBackground: 45,55,72;
   --inputBackground: 45,55,72;
   --navbarBackground: 45,55,72;
