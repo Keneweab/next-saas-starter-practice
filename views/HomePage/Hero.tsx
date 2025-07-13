@@ -14,17 +14,17 @@ export default function Hero() {
   return (
     <HeroWrapper>
       <Contents>
-        <CustomOverTitle>the coolest, saas product you have ever seen</CustomOverTitle>
-        <Heading>Make your life easier with our SaaS</Heading>
+        <CustomOverTitle>The smartest AI assistant you’ve ever seen</CustomOverTitle>
+        <Heading>Make your work sharper, and smarter with our RAG AI</Heading>
         <Description>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, tempora qui. Explicabo voluptate iure ipsum molestias
-          repudiandae perspiciatis nostrum praesentium, unde pariatur tempora magni rem. Necessitatibus facilis obcaecati ratione.
+        Empower your team with an AI that doesn’t just guess — it finds real answers from trusted sources in real time. 
+        Our RAG blends the power of large language models with your curated knowledge base, delivering fact-checked responses and actionable insights in seconds.
         </Description>
         <CustomButtonGroup>
           <Button onClick={() => setIsModalOpened(true)}>
             Subscribe to the newsletter <span>&rarr;</span>
           </Button>
-          <NextLink href="#whitepaper" passHref>
+          <NextLink href="#features" passHref>
             <Button transparent>
               Features <span>&rarr;</span>
             </Button>

@@ -10,26 +10,26 @@ import { media } from './../../utils/media';
 
 const TABS = [
   {
-    title: 'Find relevant media contacts - multiline title',
+    title: 'Find relevant information instantly — from customer support answers to detailed research.',
     description:
-      '<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam quidem ipsam ratione dicta quis cupiditate consequuntur laborum ducimus iusto velit.</p>',
-    imageUrl: '/demo-illustration-3.png',
+      '<p>Connect your data sources, upload documents, or plug in live feeds — and watch our AI handle the rest. You’ll get smart, source-backed answers without wasting hours scrolling through PDFs and databases.</p>',
+    imageUrl: '/undraw_data-analysis_b7cp.svg',
     baseColor: '249,82,120',
     secondColor: '221,9,57',
   },
   {
-    title: 'Another amazing feature',
+    title: 'Context-aware generation you can trust.',
     description:
-      '<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam quidem ipsam ratione dicta quis cupiditate consequuntur laborum ducimus iusto velit.</p>',
-    imageUrl: '/demo-illustration-4.png',
+      '<p>Our AI doesn’t just fetch facts — it understands the context of your question and generates responses in plain language, always citing its sources. You stay informed and in control.</p>',
+    imageUrl: '/undraw_online-banking_l9sn.svg',
     baseColor: '57,148,224',
     secondColor: '99,172,232',
   },
   {
-    title: 'And yet... another truly fascinating feature',
+    title: 'Secure, private, and enterprise-ready.',
     description:
-      '<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam quidem ipsam ratione dicta quis cupiditate consequuntur laborum ducimus iusto velit.</p>',
-    imageUrl: '/demo-illustration-5.png',
+      '<p>Your data stays yours. Our architecture is designed for strict privacy, compliance, and enterprise security — so you can deploy RAG AI confidently across teams and departments.</p>',
+    imageUrl: '/undraw_users-per-minute_eg97.svg',
     baseColor: '88,193,132',
     secondColor: '124,207,158',
   },

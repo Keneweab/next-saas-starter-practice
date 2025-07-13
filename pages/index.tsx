@@ -16,37 +16,34 @@ export default function Homepage({ posts }: InferGetStaticPropsType<typeof getSt
   return (
     <>
       <Head>
-        <title>{EnvVars.SITE_NAME}</title>
+        <title>Amadeus System</title>
         <meta
           name="description"
           content="Tempor nostrud velit fugiat nostrud duis incididunt Lorem deserunt est tempor aute dolor ad elit."
         />
       </Head>
       <HomepageWrapper>
-        <WhiteBackgroundContainer>
+        <DarkerBackgroundContainer>
           <Hero />
           <Partners />
-          <BasicSection imageUrl="/demo-illustration-1.svg" title="Lorem ipsum dolor sit amet consectetur." overTitle="sit amet gogo">
+          <section id="features">
+          <BasicSection imageUrl="/undraw_feedback_ebmx.svg" title="Your Knowledge, Supercharged!" overTitle="Knowledge Retrieval">
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, quidem error incidunt a doloremque voluptatem porro inventore
-              voluptate quo deleniti animi laboriosam.{' '}
-              <Link href="/help-center">Possimus ullam velit rem itaque consectetur, in distinctio?</Link> Lorem ipsum, dolor sit amet
-              consectetur adipisicing elit. Soluta repellendus quia quos obcaecati nihil. Laudantium non accusantium, voluptate eum nesciunt
-              at suscipit quis est soluta?
+            Stop wasting time digging through endless documents. Our RAG AI searches your internal data, verified sources, and public knowledge all at once — giving you clear, accurate answers when you need them most. From complex research to everyday tasks, you’ll never look at information the same way again.
             </p>
           </BasicSection>
-          <BasicSection imageUrl="/demo-illustration-2.svg" title="Lorem ipsum dolor sit." overTitle="lorem ipsum" reversed>
+          <BasicSection imageUrl="/undraw_idea_hz8b.svg" title="Search Less. Know More." overTitle="Search Retrieval" reversed>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, quidem error incidunt a doloremque voluptatem porro inventore{' '}
-              <strong>voluptate quo deleniti animi laboriosam</strong>. Possimus ullam velit rem itaque consectetur, in distinctio?
+            Instead of hallucinating answers like basic AI, our RAG system always ties information back to real sources. That means you get context you can trust — every single time.
             </p>
             <ul>
-              <li>Professional point 1</li>
-              <li>Professional remark 2</li>
-              <li>Professional feature 3</li>
+              <li>Real-time knowledge retrieval</li>
+              <li>Always up-to-date insights</li>
+              <li>Built for scale and accuracy</li>
             </ul>
           </BasicSection>
-        </WhiteBackgroundContainer>
+          </section>
+        </DarkerBackgroundContainer>
         <DarkerBackgroundContainer>
           <Cta />
           <FeaturesGallery />
